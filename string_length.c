@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+//string length calculation 
 size_t strlen(char *s){
 	char *p = s;
 	int len = 0;
@@ -10,6 +11,7 @@ size_t strlen(char *s){
 	return len;
 }
 
+//main method here...
 int main(void){
 	int i;
 	char *s[] = {"Git tutorials", "Tutorials Point"};
