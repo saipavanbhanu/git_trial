@@ -11,6 +11,10 @@ size_t strlen(char *s){
 	return len;
 }
 
+int prod(int a, int b){
+	return a * b ;
+}
+
 //main method here
 int main(void){
 	int i;
