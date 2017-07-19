@@ -11,7 +11,7 @@ size_t strlen(char *s){
 	return len;
 }
 
-//main method here...
+//main method here
 int main(void){
 	int i;
 	char *s[] = {"Git tutorials", "Tutorials Point"};
