@@ -15,6 +15,12 @@ int prod(int a, int b){
 	return a * b ;
 }
 
+//added extra function
+int add(int a, int b){
+	return a+b;
+
+}
+
 //main method here
 int main(void){
 	int i;
