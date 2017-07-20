@@ -16,7 +16,7 @@ int prod(int a, int b){
 }
 
 //added extra function
-int add(int a, int b){
+int add_two_numbers(int a, int b){
 	return a+b;
 
 }
