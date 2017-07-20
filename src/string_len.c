@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 //string length calculation 
-size_t strlen(char *s){
+size_t strlen(const char *s){
 	char *p = s;
 	int len = 0;
 	while(*p != '\0'){
@@ -11,20 +11,6 @@ size_t strlen(char *s){
 	return len;
 }
 
-int prod(int a, int b){
-	return a * b ;
-}
-
-//added extra function
-int add_two_numbers(int a, int b){
-	return a+b;
-
-}
-
-//subtract two numbers
-int sub(int a, int b){
-	return a-b;
-}
 //main method here
 int main(void){
 	int i;
