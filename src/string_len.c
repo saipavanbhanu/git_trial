@@ -21,6 +21,10 @@ int add(int a, int b){
 
 }
 
+//subtract two numbers
+int sub(int a, int b){
+	return a-b;
+}
 //main method here
 int main(void){
 	int i;
